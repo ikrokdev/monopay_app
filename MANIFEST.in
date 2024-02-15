@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include monopay_app *.css
+recursive-include monopay_app *.csv
+recursive-include monopay_app *.html
+recursive-include monopay_app *.ico
+recursive-include monopay_app *.js
+recursive-include monopay_app *.json
+recursive-include monopay_app *.md
+recursive-include monopay_app *.png
+recursive-include monopay_app *.py
+recursive-include monopay_app *.svg
+recursive-include monopay_app *.txt
+recursive-exclude monopay_app *.pyc
