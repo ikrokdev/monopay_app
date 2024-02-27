@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-15 14:47:33.799152",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "token",
+  "webhook_url",
+  "redirect_url"
+ ],
+ "fields": [
+  {
+   "fieldname": "token",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Mono Token",
+   "reqd": 1
+  },
+  {
+   "description": "Specify this field for local server. You can left it blank if your server deployed on dedicated server.",
+   "fieldname": "webhook_url",
+   "fieldtype": "Data",
+   "label": "Webhook Base URL"
+  },
+  {
+   "fieldname": "redirect_url",
+   "fieldtype": "Data",
+   "label": "Redirect URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-02-27 12:31:28.021872",
+ "modified_by": "Administrator",
+ "module": "Monopay App",
+ "name": "MonoPay Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
